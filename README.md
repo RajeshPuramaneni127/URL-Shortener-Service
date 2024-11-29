@@ -1,7 +1,3 @@
-Here is the **README.md** file that explains the complete project and provides setup and run instructions:
-
----
-
 ### **README.md**
 
 # URL Shortener Service
@@ -168,26 +164,3 @@ url-shortener/
 - Use tools like **Postman** or **cURL** to test the API endpoints.
 - For frontend, open the app in your browser and follow the steps in the **How to Use** section.
 
----
-
-## **Extensibility**
-
-This project is designed for easy future expansion. For example:
-- **Database Integration**: Replace the in-memory data store with MongoDB, PostgreSQL, or Redis.
-- **Authentication**: Add user accounts and authentication.
-- **TTL (Time-to-Live)**: Allow URLs to expire after a specific duration.
-
----
-
-## **Known Issues**
-- The current implementation does not persist data beyond server restarts (due to in-memory storage).
-- URL validation does not check for the actual reachability of the entered URL.
-
----
-
-## **License**
-This project is licensed under the **MIT License**.
-
----
-
-Let me know if you need additional changes!
